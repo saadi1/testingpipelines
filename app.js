@@ -4,7 +4,7 @@ app.set('views',__dirname + '/views');
 app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
-  // res.send("Hello from Appsody!");
+  // res.send("Hello from Appsody test!");
   res.redirect('/quote');
 });
 
