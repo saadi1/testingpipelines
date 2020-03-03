@@ -4,7 +4,7 @@ app.set('views',__dirname + '/views');
 app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
-  // res.send("Hello from Assppsody test!");
+  // res.send("Hello from Assppdsdsafj,dsfsody test!");
   res.redirect('/quote');
 });
 
